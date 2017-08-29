@@ -10,5 +10,10 @@ import scrapy
 
 class JdItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
+    name = scrapy.Field()
+    type = scrapy.Field()
+    price = scrapy.Field()
+    seller = scrapy.Field()
+    goods = scrapy.Field()
+    content_num = scrapy.Field()
     pass
